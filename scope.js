@@ -8,8 +8,13 @@ function calAge(birthYear){
             var millenial = true;
             const str = `oh you are a millenial with ${age} age`;
             console.log(str)
+
+            function add(a,b){
+                return a+b
+            }
         }
         console.log(millenial)  // var is a function scoped, they break the block 
+        add(2,3)  // in strict mode function are block scoped
     }
     giveName()
     return age

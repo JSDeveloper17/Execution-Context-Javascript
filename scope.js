@@ -6,8 +6,10 @@ function calAge(birthYear){
         console.log(`your name is ${name}, and age : ${age} + born in ${birthYear}`)
         if(birthYear > 1981 && birthYear <1996){
             var millenial = true;
+            const user = "maxwell";
             const str = `oh you are a millenial with ${age} age`;
             console.log(str)
+            console.log(user)
 
             function add(a,b){
                 return a+b
